@@ -1,3 +1,7 @@
+import numpy as np
+import pandas as pd
+import matplotlib.pyplot as plt
+import os
 import urllib.request
 
 
@@ -36,4 +40,3 @@ plt.ylabel('Number of reported Deaths')
 plt.plot(Date_reported2, New_deaths, label='Latest data from The WHO')
 plt.legend()
 plt.show()
-
